@@ -32,6 +32,14 @@ For a detailed system architecture, see:
 For full project specifications, see:  
 👉 [SPECIFICATION.md](https://github.com/Nonkululeko-Ma/Project_Management/blob/main/SPECIFICATION.md)  
 
+
+# System Requirements Documentation
+for full project documentation
+👉 [SYSTEM REQUIREMENTS DOCUMENTATION.md](https://github.com/Nonkululeko-Ma/Project_Management/blob/main/SYSTEM%20REQUIREMENTS%20DOCUMENTS.md)
+
+# Reflection 
+for full project reflection 
+👉 [REFLECTION.md]( )
 ---
 
 # Technologies  will be Used  
