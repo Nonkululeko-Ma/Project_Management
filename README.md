@@ -34,12 +34,12 @@ For full project specifications, see:
 
 
 # System Requirements Documentation
-for full project documentation
+for full project documentation, see:
 👉 [SYSTEM REQUIREMENTS DOCUMENTATION.md](https://github.com/Nonkululeko-Ma/Project_Management/blob/main/SYSTEM%20REQUIREMENTS%20DOCUMENTS.md)
 
 # Reflection 
-for full project reflection 
-👉 [REFLECTION.md]( )
+For full project reflection, see: 
+👉 [REFLECTION.md](https://github.com/Nonkululeko-Ma/Project_Management/blob/main/REFLECTION.md)
 ---
 
 # Technologies  will be Used  
