@@ -34,12 +34,18 @@ For full project specifications, see:
 
 
 # System Requirements Documentation
-for full project documentation, see:
+For full project documentation, see:
 👉 [SYSTEM REQUIREMENTS DOCUMENTATION.md](https://github.com/Nonkululeko-Ma/Project_Management/blob/main/SYSTEM%20REQUIREMENTS%20DOCUMENTS.md)
+
 
 # Reflection 
 For full project reflection, see: 
 👉 [REFLECTION.md](https://github.com/Nonkululeko-Ma/Project_Management/blob/main/REFLECTION.md)
+
+
+# Stakeholders
+For the full project stakeholders, see:
+👉 [STAKEHOLDER](https://github.com/Nonkululeko-Ma/Project_Management/blob/main/STAKEHOLDERS.md)
 ---
 
 # Technologies  will be Used  
