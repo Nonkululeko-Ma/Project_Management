@@ -2,9 +2,9 @@
 
 | ID | Description | Acceptance Criteria |
 |---|---|---|
-| FR001 | The system shall allow users to securely register, log in, and log out. | Users must be able to log in with valid credentials within 3 seconds. Failed login attempts should be logged. |
-| FR002 | The system shall allow project managers to create new projects with a name, description, start date, and end date. | Project creation should be completed within 5 seconds. The system must validate input data (e.g., the end date cannot be before the start date). |
-| FR003 | The system shall allow project managers to assign tasks to team members with a description, deadline, and priority. | Task assignment should be completed within 3 seconds. Notifications will be sent to the user assigned the task and to the Project Manager. |
+| FR001 | The system shall allow users to securely register, log in, and log out. | Users must be able to log in with valid credentials within seconds. Failed login attempts should be logged. |
+| FR002 | The system shall allow project managers to create new projects with a name, description, start date, and end date. | Project creation should be completed within a specific time. The system must validate input data (e.g., the end date cannot be before the start date). |
+| FR003 | The system shall allow project managers to assign tasks to team members with a description, deadline, and priority. | Task assignment should be completed within the deadline. Notifications will be sent to the user assigned the task and to the Project Manager. |
 | FR004 | The system shall allow team members to update the progress of their assigned tasks (e.g., "To Do," "In Progress," "Completed"). | The team member can update us on the progress. Project Manager should be able to view the changes. |
 | FR005 | The system shall send email notifications to team members and project managers when a task deadline is approaching or has passed. | Email Notifications are sent. |
 | FR006 | The system shall generate reports on project progress, task completion rates, and resource allocation. | Accurate report generated. |
