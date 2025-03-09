@@ -45,7 +45,7 @@ For full project reflection, see:
 
 # Stakeholders
 For the full project stakeholders, see:
-👉 [STAKEHOLDER.md](https://github.com/Nonkululeko-Ma/Project_Management/blob/main/STAKEHOLDERS.md)
+👉 [STAKEHOLDER.md](https://github.com/Nonkululeko-Ma/Project_Management/blob/main/STAKEHOLDERS_ANALYSIS.md)
 ---
 
 # Technologies  will be Used  
