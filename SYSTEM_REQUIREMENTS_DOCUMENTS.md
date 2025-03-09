@@ -21,7 +21,7 @@
 |---|---|
 | **Usability** | The user interface shall be intuitive and easy to navigate. It should comply with WCAG 2.1 accessibility standards. |
 | **Usability** | The system shall provide clear and concise error messages. |
-| **Deployability** | The system shall be deployable on Windows, AWS and/or Firebase. |
+| **Deployability** | The system shall be deployable on AWS and/or Firebase. |
 | **Deployability** | The deployment process shall be automated. |
 | **Maintainability** | The codebase shall be well-documented with an API guide for future integrations. |
 | **Maintainability** | The system shall be modular to allow for easy updates and modifications. |
