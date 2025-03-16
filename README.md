@@ -49,7 +49,9 @@ For the full project stakeholders, see:
    For the full project Test Case Development, see:
 👉 [Test_Case_Development.md](https://github.com/Nonkululeko-Ma/Project_Management/blob/main/Test_Case_Development.md)
 
-
+# Mermaid Diagram
+   For the full User Case diagram, see:
+👉 (https://www.mermaidchart.com/app/projects/a35eb643-a2e6-4dfd-9908-113447ce51e5/diagrams/058f43e1-90e0-4ab5-8fb3-fb4ba3bd5937/version/v0.1/edit)
 # Technologies  will be Used  
 - Frontend React.js  
 - Backend Node.js (Express.js)  
