@@ -1,15 +1,141 @@
-#  Use Case Specifications for TaskFlow
+# Use Case Specifications for TaskFlow
+
+#  Overview
+TaskFlow is a Project Management System designed to help teams create, manage, and track projects efficiently. The system enables Project Managers, Team Members, IT Admins, and Company Executives to collaborate, monitor progress, and ensure successful project completion.  
+This document defines the key use cases of TaskFlow, detailing actor interactions, system behavior, and expected outcomes. Each use case follows a structured approach, including preconditions, postconditions, main flows, and alternative flows.  
 
 
-# Use Case Table**
-| **Use Case**           | **Actors**             | **Description**                                      | **Preconditions**                      | **Postconditions**                          | **Basic Flow**                                  | **Alternative Flow**                                  |
-|------------------------|----------------------|----------------------------------------------------|--------------------------------------|------------------------------------------|------------------------------------------------|------------------------------------------------|
-| **Create Project**     | Project Manager      | Allows a manager to create a new project         | Manager is logged in               | New project is available in the system  | 1. Manager enters project details <br> 2. Clicks "Create" <br> 3. System saves project | 1. If missing details, system shows error |
-| **Assign Task**        | Project Manager      | Assigns a task to a team member                 | Project exists, user is assigned   | Task is visible to assigned member       | 1. Select project <br> 2. Add task details <br> 3. Assign to user | 1. If invalid user, system shows error |
-| **Update Task Progress** | Team Member        | Updates task status                              | Task is assigned to user           | Task status is updated in system        | 1. Select assigned task <br> 2. Change status to "In Progress" or "Done" | 1. If user not assigned, system blocks update |
-| **View Reports**       | Project Manager      | Generates project progress reports              | Data exists                         | Report is displayed                     | 1. Click "Generate Report" <br> 2. System compiles and displays report | 1. If no data, system shows "No Data Available" |
-| **Receive Notifications** | Team Member       | Notifies users of task updates                  | Task assigned to user               | User receives an alert                  | 1. System detects task update <br> 2. Sends notification | 1. If user disabled notifications, no alert is sent |
-| **Upload Documents**   | Team Member          | Allows team members to attach files to tasks    | Task exists                         | File is stored in the system            | 1. Click "Attach File" <br> 2. Select file and upload | 1. If file type not supported, system blocks upload |
-| **Manage User Roles**  | IT Admin             | Admin adds, edits, or removes users             | Admin logged in                     | User role is updated                    | 1. Select user <br> 2. Change role <br> 3. Click "Save" | 1. If invalid role, system shows error |
-| **Monitor System**     | IT Admin             | Monitors system activity and security logs      | System is online                    | Logs are displayed                      | 1. Admin accesses monitoring dashboard | 1. If system down, alerts are triggered |
+# Use Case Descriptions
 
+# Use Case 1: Create Project  
+Actor: Project Manager  
+Description: Enables a project manager to create a new project in the system.  
+Preconditions:  
+The project manager must be logged in.  
+Postconditions:  
+ The new project appears in the project list.  
+Basic Flow:  
+1. The project manager navigates to the "Create New Project" page.  
+2. Enters project details (title, deadline, description).  
+3. Clicks the "Save" button.  
+4. The system saves the project and confirms the creation.  
+Alternative Flow:  
+If required fields are missing, the system displays an error message and prevents submission.  
+
+
+
+# Use Case 2: Assign Task  
+Actor: Project Manager  
+Description: Assigns a task to a team member.  
+Preconditions: 
+ A project must exist.  
+ At least one team member must be assigned to the project.  
+Postconditions:  
+ The task is visible in the assigned member’s task list.  
+Basic Flow:  
+1. The project manager selects a project.  
+2. Clicks "Assign Task".  
+3. Enters task details and selects a team member.  
+4. Clicks "Assign".  
+5. The system notifies the assigned team member.  
+Alternative Flow:  
+ If an invalid user is selected, the system displays an error message.  
+
+
+# Use Case 3: Update Task Progress  
+Actor: Team Member  
+Description: Allows a team member to update their assigned task status.  
+Preconditions:
+ The task must be assigned to the user.  
+Postconditions: 
+ The task status is updated in the system.  
+Basic Flow:  
+1. The team member selects "My Tasks".  
+2. Chooses an assigned task.  
+3. Updates the task status (e.g., "In Progress" or "Completed").  
+4. Clicks "Update".  
+5. The system saves the status change.  
+Alternative Flow:  
+ If the task is not assigned to the user, the system prevents the update.  
+
+
+
+# Use Case 4: View Reports 
+Actor: Project Manager  
+Description: Generates a project progress report.  
+Preconditions: 
+ At least one task must be recorded in the system.  
+Postconditions:
+ A report is displayed to the project manager.  
+Basic Flow:  
+1. The project manager navigates to "Reports".  
+2. Selects a project.  
+3. Clicks "Generate Report".  
+4. The system compiles and displays the report.  
+Alternative Flow:  
+ If no data exists, the system displays "No Data Available".  
+
+
+# Use Case 5: Receive Notifications**  
+Actor: Team Member  
+Description: Sends task update notifications to assigned users.  
+Preconditions:  
+ Task must be updated by a project manager.  
+Postconditions: 
+ The team member receives a notification.  
+Basic Flow: 
+1. The system detects a task update.  
+2. Sends a notification to the assigned user.  
+**Alternative Flow:  
+If the user **has disabled notifications**, no alert is sent.  
+
+
+# Use Case 6: Upload Documents  
+ Actor: Team Member  
+Description: Allows users to attach files to tasks.  
+Preconditions:  
+A task must exist.  
+Postconditions: 
+The uploaded document is stored in the system.  
+Basic Flow: 
+1. The user selects a task.  
+2. Clicks "Attach File".  
+3. Selects a document from their device.  
+4. Clicks "Upload".  
+5. The system **stores the file.  
+Alternative Flow:  
+If the file format is unsupported, the system prevents the upload.  
+
+
+
+# Use Case 7: Manage User Roles  
+Actor: IT Admin  
+Description:* Allows IT Admins to add, edit, or remove users.  
+Preconditions:  
+ The IT Admin must be logged in.  
+Postconditions: 
+ The user’s role is updated.  
+Basic Flow:
+1. The admin navigates to "User Management".  
+2. Selects a user.  
+3. Updates the user’s role.  
+4. Clicks "Save".  
+5. The system applies the role change.  
+Alternative Flow: 
+If an invalid role is selected, the system shows an error.  
+
+
+
+#Use Case 8: Monitor System Performance 
+Actor: IT Admin  
+Description: Allows IT Admins to track system activity and security logs.  
+Preconditions: 
+The system must be online.  
+Postconditions:  
+The admin can view system performance metrics.  
+Basic Flow:  
+1. The admin navigates to "System Monitoring".  
+2. Views logs and system metrics (e.g., CPU usage, memory load, uptime).  
+3. The system displays relevant data.  
+Alternative Flow:  
+ If the system is down, alerts are triggered.  
