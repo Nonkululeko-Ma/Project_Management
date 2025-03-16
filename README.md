@@ -21,7 +21,6 @@ The system allows users to
 - Team Collaboration & Messaging  
 
 
-
 # System Architecture  
 For a detailed system architecture, see:  
 👉 [ARCHITECTURE.md](https://github.com/Nonkululeko-Ma/Project_Management/blob/main/ARCHITECTURE.md)
@@ -52,5 +51,27 @@ For the full project stakeholders, see:
 - Backend Node.js (Express.js)  
 - Database MongoDB  
 - Hosting AWS / Firebase  
-- Authentication JWT  
+- Authentication JWT
+
+![Untitled diagram-2025-03-16-092900](https://github.com/user-attachments/assets/71a4cb1d-5896-4948-91a5-3058fa29a979)
+
+
+| **Actor**           | **Role in System**                                      |
+|---------------------|--------------------------------------------------------|
+| **Project Manager** | Creates projects, assigns tasks, views reports         |
+| **Team Member**     | Updates task progress, receives notifications          |
+| **Company Executive** | Tracks overall project progress, reviews reports      |
+| **IT Admin**        | Manages user roles, ensures system security & uptime   |
+| **HR Manager**      | Monitors workload distribution & employee performance  |
+| **Clients/Customers** | Receives project updates & final deliverables        |
+
+Generalization:
+Both Project Managers & Team Members interact with tasks.
+Inclusion:
+Receive Notifications is included in several actions (e.g., task assignment).
+How It Addresses Stakeholder Concerns:
+
+Managers need task assignment & progress tracking.
+Employees require clear notifications & task updates.
+IT Admins maintain user security & system monitoring.
   
