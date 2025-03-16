@@ -44,3 +44,49 @@
 - Balancing usability, security, and performance requires careful trade-offs and a deep understanding of stakeholder needs. There is rarely a one-size-fits-all solution.
 -  Engaging stakeholders early and often throughout the development process is crucial for preventing conflicts and ensuring that the system meets their needs. This includes actively soliciting feedback and incorporating it into the design.
 - An Agile methodology is valuable for adapting to changing priorities and requirements as the project evolves. This allows for flexibility and responsiveness to stakeholder feedback. Furthermore, by including stakeholders in sprint reviews and demos, we can ensure that the system is continuously aligned with their needs.
+  
+
+
+
+1. Understanding and Refining System Requirements
+One of the biggest challenges was ensuring that the functional and non-functional requirements from Assignment 4 were accurately reflected in the use case diagram. Initially, some requirements lacked details, making it difficult to determine clear use case boundaries. For example, "Task Assignment" needed refinement to distinguish between assigning a task, tracking its progress, and notifying the assigned team member.
+
+ Solution: Breaking down complex requirements into smaller, well-defined use cases eliminated ambiguities. Additionally, aligning each use case with stakeholder concerns ensured that the system functionality was both necessary and practical.
+
+2. Balancing Stakeholder Needs with System Functionality
+The TaskFlow system serves multiple stakeholders, including Project Managers, Team Members, IT Admins, and Company Executives. Each of these roles has different priorities:
+
+Project Managers require detailed task tracking and reporting.
+Team Members need an easy-to-use interface for task updates.
+IT Admins focus on security, role management, and performance.
+Executives require high-level project insights and reports.
+This led to conflicts in feature prioritization. For instance, managers wanted real-time reporting, while IT Admins emphasized system performance and security, which could slow down report generation.
+
+ Solution: Implementing role-based access control (RBAC) helped balance these needs. Managers received detailed reports, while Executives accessed high-level summaries without performance overhead.
+
+3. Creating an Effective Use Case Diagram
+Another challenge was structuring the UML Use Case Diagram correctly using Mermaid.js. Initial attempts resulted in syntax errors, especially when multiple actors interacted with the same use case.
+
+Solution: Instead of forcing multi-parent connections, each use case was directly linked to the system, simplifying relationships. The revised Mermaid.js diagram correctly visualized user interactions without breaking UML standards.
+
+4. Developing Comprehensive Test Cases
+Creating functional and non-functional test cases required ensuring that all system functionalities were fully validated. However, challenges arose when defining:
+
+Acceptance criteria for success/failure scenarios
+Testing system security against attacks (e.g., SQL injection, unauthorized access)
+Simulating high user loads for performance testing
+Solution: A structured test case table was developed, covering:
+
+Basic validation tests (e.g., task creation, role management)
+Edge cases (e.g., what happens when invalid data is entered)
+Performance & security tests (e.g., how the system handles 1,000 concurrent users)
+By systematically tracing test cases back to the functional requirements, we ensured full test coverage.
+
+5. Lessons Learned
+Through this assignment, I learned:
+✔ Breaking down complex requirements into smaller use cases improves clarity.
+✔ Stakeholder needs must be balanced with system constraints.
+✔ Mermaid.js requires strict syntax to correctly render UML diagrams.
+✔ A well-structured test plan ensures system reliability, security, and scalability.
+
+Overall, translating requirements into actionable use cases and test cases was a challenging but rewarding process. This structured approach will be invaluable in real-world software engineering projects, ensuring that systems are functional, scalable, and secure.
