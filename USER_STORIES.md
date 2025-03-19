@@ -4,7 +4,7 @@
 |-------------|---------------|-------------------------|--------------------------------|
 | **US-001** | As a Project Manager, I want to create new projects to manage work efficiently.| The system allows project creation with title, deadline, and description. |High |
 
-| **US-002** | As a Project Manager, I want to assign tasks to team members to properly distribute work. |The system assigns tasks and notifies the team member. | High |
+| **US-002** | As a Project Manager, I want to assign tasks to team members to properly distribute work.| The system assigns tasks and notifies the team member. |High |
 
 | **US-003** | As a Team Member, I want to update my task progress so that I can track my work. | Task progress is updated and visible to the manager. | High |
 
@@ -16,7 +16,7 @@
 
 | **US-007**   | As a Client, I want to view the project timeline so that I can track progress and deadlines. | A project timeline is displayed with milestones and deadlines.     | Medium |
 
-| **US-008** | As a Company Executive, I want system logs to track all user activities so that I can ensure security and compliance. | Activity logs are recorded for security auditing. | Low| 
+| **US-008** | As a Company Executive, I want system logs to track all user activities so that I can ensure security and compliance. | Activity logs are recorded for security auditing. | Low | 
 
 | **US-009**  |As a Client, I want to provide feedback on project updates so that I can communicate expectations. | The system allows comments and feedback submissions on project updates.| Medium |
 
