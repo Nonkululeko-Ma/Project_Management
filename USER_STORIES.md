@@ -1,10 +1,10 @@
 # User Stories for TaskFlow
 
-| **Story ID** | | **User Story** | | **Acceptance Criteria** | | **Priority (High/Medium/Low)** |
+| **Story ID** |  **User Story** |  **Acceptance Criteria** |  **Priority (High/Medium/Low)** |
 |-------------|---------------|-------------------------|--------------------------------|
 | **US-001** | As a Project Manager, I want to create new projects to manage work efficiently.| The system allows project creation with title, deadline, and description. |High |
 
-| **US-002** | As a Project Manager, I want to assign tasks to team members to properly distribute work. |The system assigns tasks and notifies the team member.** | High |
+| **US-002** | As a Project Manager, I want to assign tasks to team members to properly distribute work. |The system assigns tasks and notifies the team member. | High |
 
 | **US-003** | As a Team Member, I want to update my task progress so that I can track my work. | Task progress is updated and visible to the manager. | High |
 
