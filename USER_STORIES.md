@@ -13,7 +13,7 @@
 | **US-009** | As a Team Member, I want to search for tasks so that I can quickly find assigned work. | Search function returns relevant tasks within 2 seconds. | High |
 | **US-010** | As a System Admin, I want user data encrypted with AES-256 so that security compliance is met. | Data is securely stored and encrypted. | High |
 
-* These user stories meet the INVEST criteria:*  
+# These user stories meet the INVEST criteria:
 - Independent (Each story is self-contained)  
 - Negotiable (Can be refined as needed)  
 - Valuable (Each story has a clear benefit)  
