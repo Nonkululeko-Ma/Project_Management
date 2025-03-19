@@ -15,7 +15,11 @@
 | **US-009**   | As a Client, I want to view the project timeline so that I can track progress and deadlines. | A project timeline is displayed with milestones and deadlines. | Medium |
 | **US-010**   | As a Client, I want to provide feedback on project updates so that I can communicate expectations. | The system allows comments and feedback submissions on project updates. | Medium |
 
-|
+#  Non-Functional User Story #
+| **Story ID** | **User Story** | **Acceptance Criteria** | **Priority** |
+|-------------|---------------|-------------------------|-------------|
+| **US-011** | As a System Admin, I want user data encrypted with AES-256 so that security compliance is met. | - All user data is encrypted using AES-256.<br>- Database stores only encrypted values.<br>- Unauthorized access attempts are logged. | High |
+
 
 # These user stories meet the INVEST criteria #
 
