@@ -80,4 +80,7 @@ How It Addresses Stakeholder Concerns:
 Managers need task assignment & progress tracking.
 Employees require clear notifications & task updates.
 IT Admins maintain user security & system monitoring.
-  
+
+**For the Project on GitHub**
+👉 https://github.com/users/Nonkululeko-Ma/projects/1
+
