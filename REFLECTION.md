@@ -90,3 +90,17 @@ Through this assignment, I learned:
 ✔ A well-structured test plan ensures system reliability, security, and scalability.
 
 Overall, translating requirements into actionable use cases and test cases was a challenging but rewarding process. This structured approach will be invaluable in real-world software engineering projects, ensuring that systems are functional, scalable, and secure.
+
+
+ **Reflection: Agile Planning and Execution in My Project Management App**
+Working on my Project Management App using Agile, specifically Kanban, was both a learning experience and a challenge. I started by defining user stories to outline key functionalities, ensuring that every task aligned with the project’s goals. Creating user stories helped me break down complex features into manageable parts. For example, one of my key user stories was:
+
+"As a project manager, I want to create and assign tasks so that my team can track progress and stay organized."
+
+This approach helped in structuring the Product Backlog, where I listed all necessary features, from project creation and task assignment to notifications and reporting. Managing the Product Backlog was challenging because I had to decide which features to develop first. To keep things structured, I used Kanban boards to visualize progress, ensuring that tasks moved from To Do to In Progress and finally to Done.
+
+Sprint Planning was another key part of my Agile workflow. Since I had limited time, I had to break the project into sprints with clear deliverables. In the first sprint, I focused on setting up the project creation feature and task assignment system, which were crucial for the MVP. I added these tasks to the Sprint Backlog and estimated the time required for each. However, estimating time was tricky because some tasks, like user role management, were more complex than expected, leading to delays.
+
+Using Kanban to manage my sprints, I tracked my progress and adjusted priorities based on what was taking longer. There were moments when the workload felt overwhelming, especially when juggling multiple milestones. I had to ensure that tasks were progressing smoothly while also dealing with unexpected challenges. One of the biggest challenges was staying on track with my sprint timelines. Initially, I underestimated the amount of work needed for some features, which caused delays. This led to some tasks spilling over into the next sprint. However, Agile allowed me to adapt and refine my backlog, so I reprioritized and moved non-essential features to later sprints.
+
+Despite the challenges, using Agile and Kanban helped me manage the project efficiently. I learned the importance of proper sprint planning, backlog refinement, and flexibility. Regularly updating my Kanban board kept me focused, and breaking the project into small milestones made the workload more manageable. The ability to adjust my sprint goals and backlog as needed ensured that I delivered a functional MVP while continuously improving the app. Agile allowed me to remain organized, adaptable, and realistic about time management, ultimately making the development process smoother and more structured. For this assignment, I actually learned a lot.
