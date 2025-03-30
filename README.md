@@ -111,7 +111,7 @@ enhancement → Improvements
 Tasks are assigned to team members using @mentions.
 Each task has a clear description and goal.
 
-## ASSIGNMENT 6 ##
+## ASSIGNMENT 7 ##
 **Kanban Board**
 ![1](https://github.com/user-attachments/assets/54680e6a-e2e2-4935-86f0-46cfbee1b213)
 ![3](https://github.com/user-attachments/assets/bd45f69e-e8dd-43a4-b686-bbe0100941c5)
