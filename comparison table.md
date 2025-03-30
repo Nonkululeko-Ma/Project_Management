@@ -1,5 +1,11 @@
-| Template          | Columns                      | Automation Features                        | Agile Suitability                 |
-|------------------|----------------------------|-------------------------------------------|----------------------------------|
-| Basic Kanban    | To Do, In Progress, Done    | No automation                             | Good for small teams & manual tracking |
-| Automated Kanban | To Do, In Progress, Done    | Auto-moves tasks based on issue status    | Best for Agile & Scrum-based sprints |
-| Bug Triage      | New, Accepted, In Progress, Completed | Auto-assigns issues to users              | Ideal for software development & bug tracking |
+| Template         | Columns                     | Automation Features | Best Use Case |
+|-----------------|---------------------------|--------------------|--------------|
+| Basic Kanban    | To Do, In Progress, Done  | No automation     | General task tracking |
+| Kanban         | Backlog, In Progress, Review, Done | No automation  | Agile project management |
+| Bug Triage      | New, Accepted, In Progress, Completed | No automation | Bug tracking |
+
+
+
+**Kanban**
+
+I selected the Kanban template because it provides a structured workflow for Agile project management. It allows clear visualization of tasks without automation, making it simple and flexible for manual updates.
