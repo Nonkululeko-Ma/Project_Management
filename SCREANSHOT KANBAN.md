@@ -3,5 +3,4 @@ Kanban Board
 ![3](https://github.com/user-attachments/assets/bd45f69e-e8dd-43a4-b686-bbe0100941c5)
 
 Issues and Assigned
-![2](https://github.com/user-attachments/assets/013936ed-dec3-4f0c-8d35-0ac2f7d52157)
-
+![3](https://github.com/user-attachments/assets/e0c5bcc3-444a-4516-ae0b-276cfcca1106)
