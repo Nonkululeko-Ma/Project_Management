@@ -107,3 +107,16 @@ Despite the challenges, using Agile and Kanban helped me manage the project effi
 
 **Note**
 I have also created the User Stories, Sprint Planning, and other necessary Agile documents in Markdown in case my project wasn't successfully built for efficient project tracking.
+
+
+## Assignment 7 ##
+
+**Challenges in Selecting & Customizing the Template**
+Choosing the right template can be tricky because every team have different needs. Some templates may have too many features, making them hard to use, while others may lack important columns like Testing or Blocked. Customizing also takes time, as we need to add the right columns, set WIP limits, and assign tasks properly.
+
+**GitHub vs. Other Tools**
+- GitHub is great for developers, linking tasks to code and issues. However, it has fewer built-in templates than some other tools.
+- Trello is simple and easy to use, but it lacks advanced tracking features.
+- Jira is powerful for Agile teams, with detailed reports and automation, but it can be complex to set up.
+
+In conclusion GitHub is best for coding projects, collaborations, Trello for simple tasks, and Jira for big Agile teams.
