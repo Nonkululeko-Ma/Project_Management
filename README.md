@@ -84,3 +84,32 @@ IT Admins maintain user security & system monitoring.
 **For the Project on GitHub**
 👉 https://github.com/users/Nonkululeko-Ma/projects/1
 
+
+**Assignment 6**
+
+**Kanban Board Customization**
+**Overview**
+This Kanban board is set up to track project tasks and make work more organized.
+
+**Custom Columns**
+To Do – Tasks that need to be started.
+In Progress – Tasks that are currently being worked on.
+Testing – (New) For tasks being checked for errors before completion.
+Blocked – (New) For tasks that are stuck due to issues or missing information.
+Done – Completed tasks.
+
+**Linked Issues & Labels**
+Issues are linked to match tasks with their GitHub Issues.
+
+**Labels used**
+
+feature → New features
+bug → Problems that need fixing
+enhancement → Improvements
+
+**Task Assignments**
+Tasks are assigned to team members using @mentions.
+Each task has a clear description and goal.
+
+
+
