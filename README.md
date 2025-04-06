@@ -121,3 +121,25 @@ Each task has a clear description and goal.
 **Template analysis**
 ![image](https://github.com/user-attachments/assets/94f7cab2-2a29-424e-91eb-7466c4c4d8e7)
 
+
+## ASSIGNMENT 8 ## 
+
+![UML activity diagram](https://github.com/user-attachments/assets/265dc0e5-67b3-4555-9447-ae0f0b9a353e)
+
+![state transition diagram](https://github.com/user-attachments/assets/918ea9c9-fa63-41d1-a545-b228ee5fc67d)
+
+## Integration with Prior Work (Traceability) ##
+
+
+| Diagram/Workflow                           | Functional Requirement (Assignment 4)                 | Related User Story / Task (Assignment 6)                 |
+|--------------------------------------------|-------------------------------------------------------|----------------------------------------------------------|
+| User Registration Activity Diagram         | FR-001: Allow user registration                      | US-001: Create user account                              |
+| Create Project Activity Diagram            | FR-002: Allow users to create projects               | T-001: Project creation feature                          |
+| Create Task Activity Diagram               | FR-003: Allow tasks within projects                  | T-002: Add task functionality                            |
+| Update Task Status Activity Diagram        | FR-004: Update task progress                         | T-003: Update task status                                |
+| Report Issue Activity Diagram              | FR-005: Report bugs/issues                          | T-004: Issue reporting feature                           |
+| Add Comment Activity Diagram               | FR-006: Communicate in tasks                        | T-005: Commenting system                                 |
+| Generate Report Activity Diagram           | FR-007: Generate reports                            | T-006: Reporting feature                                 |
+| Notification Handling Activity Diagram     | FR-008: Notify users of updates                    | T-007: Notification system                               |
+
+
