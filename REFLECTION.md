@@ -120,3 +120,13 @@ Choosing the right template can be tricky because every team have different need
 - Jira is powerful for Agile teams, with detailed reports and automation, but it can be complex to set up.
 
 In conclusion GitHub is best for coding projects, collaborations, Trello for simple tasks, and Jira for big Agile teams.
+
+
+## ASSIGNMENT 8 ## 
+
+## Reflection
+
+While doing this assignment, one of the main challenges I faced was choosing how much detail to add to the state and activity diagrams. If I add too much information, the diagrams will look complicated and hard to read. But if I added too little, it felt like important steps were missing. Another challenge was ensuring my diagrams matched properly with my previous assignments' user stories and sprint tasks. I had to go back and check if everything connected well.
+
+State diagrams helped me focus more on how a single object behaves and changes over time, like a Task moving from "To Do" to "In Progress" to "Done". On the other hand, activity diagrams show the whole process or workflow, like how a user registers or creates a project step-by-step. Both diagrams are useful but used for different reasons — state diagrams are about object behaviour, and activity diagrams are about process flow. Overall, this task helped me understand how to plan and visualize a system better in a clear way.
+
