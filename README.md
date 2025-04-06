@@ -128,6 +128,21 @@ Each task has a clear description and goal.
 
 ![state transition diagram](https://github.com/user-attachments/assets/918ea9c9-fa63-41d1-a545-b228ee5fc67d)
 
+**Link for the Mermaid diagrams** 👇
+
+https://www.mermaidchart.com/app/projects/a35eb643-a2e6-4dfd-9908-113447ce51e5/diagrams/058f43e1-90e0-4ab5-8fb3-fb4ba3bd5937/version/v0.1/edit
+
+https://www.mermaidchart.com/app/projects/a35eb643-a2e6-4dfd-9908-113447ce51e5/diagrams/6fad2a50-c757-46a8-8ea5-6369a345a5e5/version/v0.1/edit   
+
+
+**Diagram 1: Object-Purpose-Related Functional Requirements**
+
+This diagram shows the main objects in the app and what they do. The Project helps track the project status (FR-001). The Task manages the progress of tasks (FR-002). The User Account controls user states (FR-003). Issues help track bugs (FR-004). Notifications send alerts to users (FR-005). Roles control user access (FR-006). The Comment feature lets users post, edit, or delete comments (FR-007). Finally, the Report feature manages the approval of reports (FR-008).
+
+**Diagram 2: Workflow Purpose**
+
+This diagram explains the app’s main workflows. User Registration ensures users enter the right details and verify their email. Create Project lets users start new projects. Create Task allows users to add tasks and assign them to team members. Update Task Status helps track progress. Report Issue lets users report problems. Add Comment lets users give feedback or notes. Generate Report lets admins create reports for the project. Notification Handling lets users manage alerts and updates.
+
 ## Integration with Prior Work (Traceability) ##
 
 
