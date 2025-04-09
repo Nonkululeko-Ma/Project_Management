@@ -79,8 +79,6 @@ Notification "1" -- "1" User : sentTo
 
 
 
----
-
 ## Explanation of Design Decisions ##
 
 - I used 7 main classes based on the domain model from Task 1.
@@ -94,6 +92,6 @@ Notification "1" -- "1" User : sentTo
 - I included Multiplicity (1, 0..*, 0..1) to show how many objects can exist in the relationship.
 - Attributes are private (-), methods are public (+) following UML standards.
 
----
+
 
 
