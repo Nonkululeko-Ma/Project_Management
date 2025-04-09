@@ -176,4 +176,5 @@ This diagram explains the app’s main workflows. User Registration ensures user
 👇 **Links for the Domain and Mermaid Diagrams**
 
 https://github.com/Nonkululeko-Ma/Project_Management/blob/main/Mermaid.js_Diagram.md
+
 https://github.com/Nonkululeko-Ma/Project_Management/blob/main/Domain_Model_Documentation.md
