@@ -158,3 +158,17 @@ This diagram explains the app’s main workflows. User Registration ensures user
 | Notification Handling Activity Diagram     | FR-008: Notify users of updates                    | T-007: Notification system                               |
 
 
+
+## Explanation of Design Decisions ##
+
+- I used 7 main classes based on the domain model from Task 1.
+- The relationships show real-world connections like:
+  - One User can create many Projects.
+  - Each Project contains many Tasks.
+  - Each Task can have Issues or Comments.
+  - Issues can have multiple Comments.
+  - Reports are generated from Projects.
+  - Notifications are sent to Users.
+- I included Multiplicity (1, 0..*, 0..1) to show how many objects can exist in the relationship.
+- Attributes are private (-), methods are public (+) following UML standards.
+
