@@ -1,5 +1,5 @@
 %% Activity Diagrams for 8 Workflows
-
+```mermaid
 %% 1. User Registration
 flowchart TD
     A(Start) --> B[User Enters Details]
@@ -63,7 +63,7 @@ flowchart TD
     E7 --> F7(End)
 
 
-
+```mermaid
 stateDiagram-v2
     %% Project Object
     state Project {
