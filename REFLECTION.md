@@ -124,9 +124,27 @@ In conclusion GitHub is best for coding projects, collaborations, Trello for sim
 
 ## ASSIGNMENT 8 ## 
 
-## Reflection
+## Reflection ##
 
 While doing this assignment, one of the main challenges I faced was choosing how much detail to add to the state and activity diagrams. If I add too much information, the diagrams will look complicated and hard to read. But if I added too little, it felt like important steps were missing. Another challenge was ensuring my diagrams matched properly with my previous assignments' user stories and sprint tasks. I had to go back and check if everything connected well.
 
 State diagrams helped me focus more on how a single object behaves and changes over time, like a Task moving from "To Do" to "In Progress" to "Done". On the other hand, activity diagrams show the whole process or workflow, like how a user registers or creates a project step-by-step. Both diagrams are useful but used for different reasons — state diagrams are about object behaviour, and activity diagrams are about process flow. Overall, this task helped me understand how to plan and visualize a system better in a clear way.
 
+
+
+## ASSIGNMENT 9 Reflection ##
+
+While working on the domain model and class diagram, I faced a few challenges. One of the main challenges was deciding which objects to include in the domain model. At first, I thought of adding too many objects, but later I realized that would make the diagram too complicated and messy. I had to focus only on the important entities like User, Project, Task, Issue, Report, Comment, and Notification.
+Another challenge I faced was defining relationships between objects. Sometimes I was not sure if I should use association, composition, or inheritance. I had to go back and check my previous assignments, like my use cases and state diagrams, to make sure that the relationships made sense. For example, I struggled a bit when connecting Task with User and Project, but finally I managed to show that a Task belongs to a Project and is assigned to a User.
+
+Adding methods for each class was also tricky because I didn’t want to overload the diagram with too many functions. I only included the main methods like createProject(), updateStatus(), reportIssue(), and generateReport() — which are all directly linked to the system’s main functions from previous assignments.
+
+This class diagram aligns well with my previous assignments. For example:
+* The User class supports user registration and login from Assignment 5 (Use Cases).
+* The Task class connects with the task workflow from Assignment 8 (State Diagrams).
+* The Project, Task, and Issue objects all directly link to functional requirements from Assignment 4.
+* The relationships between objects also follow the activity flows I created before.
+
+One of the trade-offs I made was avoiding inheritance because my system didn’t really have objects that needed it. Instead, I used simple relationships like association and composition to keep the diagram clear and easy to understand. I also avoided adding extra technical details to keep the class diagram focused on the business logic of the project.
+
+From this assignment, I learned a lot about object-oriented design. I now understand that a class diagram is not just about drawing boxes but about carefully showing how the system works in real life. I learned how important it is to balance between keeping the diagram simple but still detailed enough to explain the system properly. I also learned that working with diagrams helps to think deeply about the system before writing any code. Overall, this task really helped me improve my planning and system design skills. It showed me the importance of organizing data, defining clear relationships, and thinking about future system development.
