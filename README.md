@@ -123,15 +123,16 @@ Each task has a clear description and goal.
 
 
 ## ASSIGNMENT 8 ## 
-
+UML Activity Diagram
 ![UML activity diagram](https://github.com/user-attachments/assets/265dc0e5-67b3-4555-9447-ae0f0b9a353e)
 
+State Transition Diagram
 ![state transition diagram](https://github.com/user-attachments/assets/918ea9c9-fa63-41d1-a545-b228ee5fc67d)
 
 **Link for the Mermaid diagrams** 👇
-UML activity diagram
+
 https://www.mermaidchart.com/app/projects/a35eb643-a2e6-4dfd-9908-113447ce51e5/diagrams/058f43e1-90e0-4ab5-8fb3-fb4ba3bd5937/version/v0.1/edit
-state transition diagram
+
 https://www.mermaidchart.com/app/projects/a35eb643-a2e6-4dfd-9908-113447ce51e5/diagrams/6fad2a50-c757-46a8-8ea5-6369a345a5e5/version/v0.1/edit   
 
 
