@@ -63,7 +63,6 @@ flowchart TD
     E7 --> F7(End)
 
 
-```mermaid
 stateDiagram-v2
     %% Project Object
     state Project {
@@ -144,7 +143,7 @@ stateDiagram-v2
 
 ## Class Diagram for Project Management System ##
 
-```mermaid
+
 classDiagram
 
 class User {
