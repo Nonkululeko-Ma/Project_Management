@@ -173,6 +173,7 @@ This diagram explains the app’s main workflows. User Registration ensures user
 - I included Multiplicity (1, 0..*, 0..1) to show how many objects can exist in the relationship.
 - Attributes are private (-), methods are public (+) following UML standards.
 
-👇   **Links for the Domain and Mermaid Diagrams**
+👇 **Links for the Domain and Mermaid Diagrams**
+
 https://github.com/Nonkululeko-Ma/Project_Management/blob/main/Mermaid.js_Diagram.md
 https://github.com/Nonkululeko-Ma/Project_Management/blob/main/Domain_Model_Documentation.md
