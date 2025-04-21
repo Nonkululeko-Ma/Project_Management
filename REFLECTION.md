@@ -44,3 +44,22 @@
 - Balancing usability, security, and performance requires careful trade-offs and a deep understanding of stakeholder needs. There is rarely a one-size-fits-all solution.
 -  Engaging stakeholders early and often throughout the development process is crucial for preventing conflicts and ensuring that the system meets their needs. This includes actively soliciting feedback and incorporating it into the design.
 - An Agile methodology is valuable for adapting to changing priorities and requirements as the project evolves. This allows for flexibility and responsiveness to stakeholder feedback. Furthermore, by including stakeholders in sprint reviews and demos, we can ensure that the system is continuously aligned with their needs.
+
+
+
+
+## ASSIGNMENT 9 ##
+While working on the domain model and class diagram, I faced a few challenges. One of the main challenges was deciding which objects to include in the domain model. At first, I thought of adding too many objects, but later I realised that would make the diagram too complicated and messy. I had to focus only on the important entities like User, Project, Task, Issue, Report, Comment, and Notification.
+
+Another challenge I faced was defining relationships between objects. Sometimes I was not sure if I should use association, composition, or inheritance. I had to go back and check my previous assignments, like my use cases and state diagrams, to make sure that the relationships made sense. For example, I struggled a bit when connecting Task with User and Project, but finally I managed to show that a Task belongs to a Project and is assigned to a User.
+Adding methods for each class was also tricky because I didn’t want to overload the diagram with too many functions. I only included the main methods like createProject(), updateStatus(), reportIssue(), and generateReport(), which are all directly linked to the system’s main functions from previous assignments.
+
+This class diagram aligns well with my previous assignments. For example:
+
+The User class supports user registration and login from Assignment 5 (Use Cases).
+The Task class connects with the task workflow from Assignment 8 (State Diagrams).
+The Project, Task, and Issue objects are all directly linked to functional requirements from Assignment 4.
+The relationships between objects also follow the activity flows I created before.
+
+One of the trade-offs I made was avoiding inheritance because my system didn’t really have objects that needed it. Instead, I used simple relationships like association and composition to keep the diagram clear and easy to understand. I also avoided adding extra technical details to keep the class diagram focused on the business logic of the project.
+From this assignment, I learned a lot about object-oriented design. I now understand that a class diagram is not just about drawing boxes but about carefully showing how the system works in real life. I learned how important it is to balance between keeping the diagram simple but still detailed enough to explain the system properly. I also learned that working with diagrams helps to think deeply about the system before writing any code. Overall, this task really helped me improve my planning and system design skills. It showed me the importance of organising data, defining clear relationships, and thinking about future system development.
