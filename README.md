@@ -44,7 +44,14 @@ For full project specifications, see:
   ![UML activity diagram](https://github.com/user-attachments/assets/6e56f1c3-b535-43de-aa39-e14b81f50f8e)
 
  ## state transition diagram ##
-![state transition diagram](https://github.com/user-attachments/assets/899f1624-f95f-4fef-8f12-0182a093d162)
+ For full project specifications, see:  
+
+
+
+👉 [User Stories](https://github.com/YourUsername/YourRepoName/blob/main/USER_STORIES.md)  
+👉 [Product Backlog](https://github.com/YourUsername/YourRepoName/blob/main/PRODUCT_BACKLOG.md)  
+ 👉 [Sprint Planning](https://github.com/YourUsername/YourRepoName/blob/main/SPRINT_PLANNING.md)  
+👉[Reflection on Agile Planning](https://github.com/YourUsername/YourRepoName/blob/main/REFLECTION.md)  
 
 ## ASSIGNMENT 7 ## 
 | Column        | Purpose                                       |
