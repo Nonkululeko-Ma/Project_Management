@@ -40,7 +40,12 @@ For full project specifications, see:
 - Database MongoDB  
 - Hosting AWS / Firebase  
 - Authentication JWT  
-  
+  ## UML activity diagram ##
+  ![UML activity diagram](https://github.com/user-attachments/assets/6e56f1c3-b535-43de-aa39-e14b81f50f8e)
+
+ ## state transition diagram ##
+![state transition diagram](https://github.com/user-attachments/assets/899f1624-f95f-4fef-8f12-0182a093d162)
+
 ## ASSIGNMENT 7 ## 
 | Column        | Purpose                                       |
 |--------------|---------------------------------------------|
@@ -67,7 +72,20 @@ GitHub Projects is a great option for development teams because it integrates di
 ### ASSIGNMENT 9 ## 
 
 # Project Management System - Assignment 9 Deliverables
+- I used 7 main classes based on the domain model from Task 1.
+- The relationships show real-world connections like:
+  - One User can create many Projects.
+  - Each Project contains many Tasks.
+  - Each Task can have Issues or Comments.
+  - Issues can have multiple Comments.
+  - Reports are generated from Projects.
+  - Notifications are sent to Users.
+  - I included Multiplicity (1, 0..*, 0..1) to show how many objects can exist in the relationship.
+  - Attributes are private (-), methods are public (+) following UML standards.
 
 ## Links to Files
 
+## ASSIGNMENT 10 ## 
+## OUTPUT ##
+![Screenshot (323)](https://github.com/user-attachments/assets/ea58f627-17ad-4955-9176-2f80dda880ab)
 
