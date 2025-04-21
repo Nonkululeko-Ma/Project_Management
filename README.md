@@ -58,3 +58,6 @@ For full project specifications, see:
 | Automation      | Yes (Kanban workflows) | No (Manual updates) | Yes (Advanced automation) |
 | Issue Tracking | Yes (Linked to code) | No | Yes (Detailed issue tracking) |
 | Complexity     | Moderate | Simple | Complex |
+
+
+GitHub Projects is a great option for development teams because it integrates directly with repositories. While Trello is more user-friendly, it lacks automation. Jira is the most powerful but can be overwhelming for small teams.
