@@ -1,5 +1,4 @@
-
-''' mermaid 
+```mermaid
 flowchart TD
     A("Start") --> B["User Enters Details"]
     B --> C{"Details Valid?"}
