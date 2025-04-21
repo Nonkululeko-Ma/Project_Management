@@ -55,15 +55,9 @@ Choosing the right template can be tricky because different teams have different
 
 ## ASSIGNMENT 8##
 
+While doing this assignment, one of the main challenges I faced was choosing how much detail to add in the state and activity diagrams. If I added too much information, the diagrams looked complicated and hard to read. But if I added too little, it felt like important steps were missing. Another challenge was making sure my diagrams matched properly with my user stories and sprint tasks from my previous assignments. I had to go back and check if everything connected well.
 
-### Challenges Faced:
-- It was hard to decide how much detail to add in states and actions. Too much made it messy, too little made it confusing.
-- Making sure the diagrams matched with user stories from Agile planning was also tricky because sometimes steps didn’t fit well.
-
-### State Diagrams vs Activity Diagrams:
-- State diagrams show how one object changes in different situations.
-- Activity diagrams show the full process or steps of how things happen in the system.
-- Both are useful but used in different ways.
+State diagrams helped me focus more on how a single object behaves and changes over time, like a Task moving from "To Do" to "In Progress" to "Done". On the other hand, activity diagrams showed the whole process or workflow, like how a user registers or creates a project step-by-step. Both diagrams are useful but used for different reasons — state diagrams are about object behavior, and activity diagrams are about process flow. Overall, this task helped me understand how to plan and visualize a system better in a clear way.
 
 ## ASSIGNMENT 9 ##
 While working on the domain model and class diagram, I faced a few challenges. One of the main challenges was deciding which objects to include in the domain model. At first, I thought of adding too many objects, but later I realised that would make the diagram too complicated and messy. I had to focus only on the important entities like User, Project, Task, Issue, Report, Comment, and Notification.
