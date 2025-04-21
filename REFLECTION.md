@@ -50,8 +50,21 @@
 
 I encountered several challenges throughout the project that tested my project management skills. One of the main difficulties was in utilizing the user story framework, which proved to be more complex than anticipated. Crafting clear and concise user stories that accurately reflected the needs of the app was a task that required constant revisions. Additionally, when I started working on the product backlog, I realized the importance of prioritizing tasks effectively. Creating the sprint planning and sprint backlog also posed challenges, as it was difficult to estimate realistic timeframes for each task while keeping the scope manageable. Working with the Kanban method was another hurdle, as I had to maintain a constant flow of tasks, ensuring that each item progressed smoothly from one stage to the next. The time constraints added to the complexity, making it difficult to keep up with the workload. Lastly, defining milestones for the project was a challenge, as there were so many details to consider, and I had to ensure that each milestone was achievable within the time limits. Despite these challenges, the experience taught me valuable lessons in time management, task prioritization, and the importance of thorough planning in a project management context.
 
-ASSIGNMENT 8
+## ASSIGNMENT 7 ##
 Choosing the right template can be tricky because different teams have different needs. Some templates may have too many features, making them hard to use, while others may lack important columns like Testing or Blocked. Customizing also takes time, as we need to add the right columns, set WIP limits, and assign tasks properly.
+
+## ASSIGNMENT 8##
+
+
+### Challenges Faced:
+- It was hard to decide how much detail to add in states and actions. Too much made it messy, too little made it confusing.
+- Making sure the diagrams matched with user stories from Agile planning was also tricky because sometimes steps didn’t fit well.
+
+### State Diagrams vs Activity Diagrams:
+- State diagrams show how one object changes in different situations.
+- Activity diagrams show the full process or steps of how things happen in the system.
+- Both are useful but used in different ways.
+
 ## ASSIGNMENT 9 ##
 While working on the domain model and class diagram, I faced a few challenges. One of the main challenges was deciding which objects to include in the domain model. At first, I thought of adding too many objects, but later I realised that would make the diagram too complicated and messy. I had to focus only on the important entities like User, Project, Task, Issue, Report, Comment, and Notification.
 
