@@ -41,3 +41,20 @@ For full project specifications, see:
 - Hosting AWS / Firebase  
 - Authentication JWT  
   
+## ASSIGNMENT 7 ## 
+| Column        | Purpose                                       |
+|--------------|---------------------------------------------|
+| To Do       | Tasks that need to be started              |
+| In Progress | Tasks currently being worked on            |
+| Testing     | Tasks undergoing QA/testing                |
+| Blocked     | Tasks waiting for external dependencies    |
+| Done        | Completed tasks                            |
+
+
+
+| Feature            | GitHub Projects     | Trello             | Jira              |
+|------------------|------------------|----------------|----------------|
+| Best Use Case  | Software Development | General Task Management | Enterprise Agile Teams |
+| Automation      | Yes (Kanban workflows) | No (Manual updates) | Yes (Advanced automation) |
+| Issue Tracking | Yes (Linked to code) | No | Yes (Detailed issue tracking) |
+| Complexity     | Moderate | Simple | Complex |
