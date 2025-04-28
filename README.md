@@ -96,6 +96,13 @@ GitHub Projects is a great option for development teams because it integrates di
 ## OUTPUT ##
 ![Screenshot (323)](https://github.com/user-attachments/assets/ea58f627-17ad-4955-9176-2f80dda880ab)
 
+ Implemented Simple Factory for User creation.
+- Implemented Factory Method for Report generation.
+- Implemented Abstract Factory for Notification types.
+- Implemented Builder pattern for Project entity.
+- Implemented Prototype pattern for Task cloning.
+- Implemented Singleton pattern for Configuration management.
+
 
 ## ASSIGNMENT 11 ## 
 
@@ -114,7 +121,9 @@ Initially, an in-memory storage (HashMap) is implemented for fast testing. Futur
 | InMemoryUserRepository.java | In-memory storage of User entities |
 | DatabaseUserRepository.java | Stub for future database storage |
 | RepositoryFactory.java | Selects the correct repository based on storage type |
+| Updated Main.java | to test repository functionality |
 
+---
 ## Storage Abstraction
 - Factory Pattern is used via "RepositoryFactory".
 - Allows easy switching from memory to database in the future.
