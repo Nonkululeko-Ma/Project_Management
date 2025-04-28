@@ -129,3 +129,4 @@ Link for diagram
 
 ## Why Generics?
 Generics were used in "Repository.java" to avoid repeating code for every new entity.
+![Screenshot (328)](https://github.com/user-attachments/assets/28e38c73-f83b-4e03-939a-7d9e13995c4b)
