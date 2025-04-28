@@ -134,10 +134,12 @@ Initially, an in-memory storage (HashMap) is implemented for fast testing. Futur
 
 ## Class Diagram
 Link for diagram 
+
 👉  https://github.com/Nonkululeko-Ma/Project_Management/blob/main/Mermaid.md
+
+
 👉 https://github.com/Nonkululeko-Ma/Project_Management/blob/main/CHANGELOG.md
-## Why Generics?
-Generics were used in "Repository.java" to avoid repeating code for every new entity.
+
 ![Screenshot (328)](https://github.com/user-attachments/assets/99d045a7-cafc-4ba1-bccb-25a348fda628)
 ![Screenshot (329)](https://github.com/user-attachments/assets/f2f1d8ce-884a-4f57-ad0a-f0ee77113c63)
 
