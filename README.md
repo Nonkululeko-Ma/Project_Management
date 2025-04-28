@@ -96,3 +96,36 @@ GitHub Projects is a great option for development teams because it integrates di
 ## OUTPUT ##
 ![Screenshot (323)](https://github.com/user-attachments/assets/ea58f627-17ad-4955-9176-2f80dda880ab)
 
+
+## ASSIGNMENT 11 ## 
+
+#  Repository Layer - ProjectManagement
+
+## Overview
+This layer handles persistence operations for domain entities using a clean Repository Pattern approach.  
+Initially, an in-memory storage (HashMap) is implemented for fast testing. Future storage (like a database) is also prepared.
+
+## Components
+
+| File | Purpose |
+|:---|:---|
+| Repository.java | Generic CRUD operations using generics |
+| UserRepository.java | Specialised repository interface for User |
+| InMemoryUserRepository.java | In-memory storage of User entities |
+| DatabaseUserRepository.java | Stub for future database storage |
+| RepositoryFactory.java | Selects the correct repository based on storage type |
+
+## Storage Abstraction
+- Factory Pattern is used via "RepositoryFactory".
+- Allows easy switching from memory to database in the future.
+
+## Future-Proofing
+- "DatabaseUserRepository" stub included.
+- New storage systems (e.g., JSON, REST API) can easily be added.
+
+## Class Diagram
+Link for diagram 
+👉  https://github.com/Nonkululeko-Ma/Project_Management/blob/main/Mermaid.md
+
+## Why Generics?
+Generics were used in "Repository.java" to avoid repeating code for every new entity.
