@@ -1,10 +1,10 @@
 ```mermaid
 classDiagram
-    class Repository~T, ID~ {
-        +save(T entity)
-        +findById(ID id)
+    class Repository {
+        +save(entity)
+        +findById(id)
         +findAll()
-        +delete(ID id)
+        +delete(id)
     }
 
     class User
