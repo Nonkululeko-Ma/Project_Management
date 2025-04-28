@@ -77,7 +77,7 @@ Issue "1" -- "0..*" Comment : has
 Project "1" -- "0..*" Report : generates
 Notification "1" -- "1" User : sentTo
 
-
+##dIAGRAM
 
 ```mermaid
 classDiagram
