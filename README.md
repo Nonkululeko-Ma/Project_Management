@@ -114,15 +114,15 @@ Initially, an in-memory storage (HashMap) is implemented for fast testing. Futur
 
 ## Components
 
-| File | Purpose |
-|:---|:---|
-| Repository.java | Generic CRUD operations using generics |
-| UserRepository.java | Specialised repository interface for User |
-| InMemoryUserRepository.java | In-memory storage of User entities |
-| DatabaseUserRepository.java | Stub for future database storage |
-| RepositoryFactory.java | Selects the correct repository based on storage type |
-| Updated Main.java | to test repository functionality |
+##  Repository Layer 
 
+| Component | Description |
+|:---|:---|
+| Repository.java | Generic CRUD operations using Generics |
+| UserRepository.java | Specialised interface for User persistence |
+| InMemoryUserRepository.java | In-memory HashMap implementation |
+| DatabaseUserRepository.java | Stub for future database support |
+| RepositoryFactory.java | Factory to switch between MEMORY and DATABASE repositories |
 ---
 ## Storage Abstraction
 - Factory Pattern is used via "RepositoryFactory".
