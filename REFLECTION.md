@@ -72,5 +72,10 @@ The Task class connects with the task workflow from Assignment 8 (State Diagrams
 The Project, Task, and Issue objects are all directly linked to functional requirements from Assignment 4.
 The relationships between objects also follow the activity flows I created before.
 
+Lessons Learned
+- Separation of concerns makes systems easier to maintain.
+- Abstracting storage allows future flexibility without code rewriting.
+- Using design patterns improves system scalability and testing.
+
 One of the trade-offs I made was avoiding inheritance because my system didn’t really have objects that needed it. Instead, I used simple relationships like association and composition to keep the diagram clear and easy to understand. I also avoided adding extra technical details to keep the class diagram focused on the business logic of the project.
 From this assignment, I learned a lot about object-oriented design. I now understand that a class diagram is not just about drawing boxes but about carefully showing how the system works in real life. I learned how important it is to balance between keeping the diagram simple but still detailed enough to explain the system properly. I also learned that working with diagrams helps to think deeply about the system before writing any code. Overall, this task really helped me improve my planning and system design skills. It showed me the importance of organising data, defining clear relationships, and thinking about future system development.
