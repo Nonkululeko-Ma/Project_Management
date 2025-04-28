@@ -3,7 +3,7 @@ package ProjectManagement;
 public class SimpleFactory {
 
     // Base abstract User class
-    public static abstract class User {
+    public static abstract class User extends ProjectEntities.User {
         protected String name;
 
         public User(String name) {
@@ -11,6 +11,10 @@ public class SimpleFactory {
         }
 
         public abstract String getRole();
+
+        public String getName() {
+            return "";
+        }
     }
 
     // Admin class

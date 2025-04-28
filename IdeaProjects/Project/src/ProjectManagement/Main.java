@@ -1,7 +1,10 @@
 package ProjectManagement;
 
+import java.util.Optional;
+
 public class Main {
     public static void main(String[] args) {
+
         System.out.println("--- Simple Factory ---");
         SimpleFactory.User admin = SimpleFactory.UserFactory.createUser("Admin", "Nonku Magoso");
         SimpleFactory.User pm = SimpleFactory.UserFactory.createUser("ProjectManager", "Siphokazi Cele");
@@ -52,6 +55,31 @@ public class Main {
 
         if (config1 == config2) {
             System.out.println("Singleton verified: Both configurations are the same instance.");
+        }
+
+        // ------------------------------
+        // Assignment 11: Repository Layer Testing
+        // ------------------------------
+        System.out.println("\n--- Repository Layer Test ---");
+
+        UserRepository repo = RepositoryFactory.getUserRepository("MEMORY");
+
+        ProjectEntities.User user = new ProjectEntities.User("Admin", "Nonkululeko");
+
+        repo.save(user);
+
+        Optional<ProjectEntities.User> foundUser = repo.findById("Nonkululeko");
+
+        if (foundUser.isPresent()) {
+            System.out.println("✅ User found: " + foundUser.get().getName());
+        } else {
+            System.out.println("❌ User not found.");
+        }
+
+        repo.delete("Nonkululeko");
+
+        if (repo.findById("Nonkululeko").isEmpty()) {
+            System.out.println("✅ User successfully deleted.");
         }
     }
 }

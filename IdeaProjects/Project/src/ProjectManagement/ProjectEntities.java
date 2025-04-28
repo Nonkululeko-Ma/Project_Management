@@ -15,6 +15,12 @@ public class ProjectEntities {
         private String role;
         private String status;
 
+        public User(String admin, String nonkululeko) {
+        }
+
+        public User() {
+        }
+
         public void register() {
             System.out.println(name + " registered.");
         }
@@ -25,6 +31,10 @@ public class ProjectEntities {
 
         public void updateProfile() {
             System.out.println(name + " updated their profile.");
+        }
+
+        public String getName() {
+            return "";
         }
     }
 
