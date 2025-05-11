@@ -152,6 +152,8 @@ Link for diagram
 
 ## Deliverable 2 ##
 ci.yml screenshot
+![Uploading image.png…]()
+
 ![Screenshot (354)](https://github.com/user-attachments/assets/4cf9a388-347c-40fe-b8b7-09b33b4cd050)
 ![Screenshot (355)](https://github.com/user-attachments/assets/0cf1316d-2c56-441f-8add-abeaf587269a)
 
