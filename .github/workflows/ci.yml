@@ -1,4 +1,4 @@
-name: Java CI and Release Artefact
+name: Java CI and Release Artifact
 
 on:
   push:
@@ -25,10 +25,10 @@ jobs:
 
       - name: Build with Maven
         working-directory: IdeaProjects/Project
-        run: mvn -B package-- file pom.xml -DskipTests
+        run: mvn -B package --file pom.xml -DskipTests
 
-      - name: Upload JAR Artefact
+      - name: Upload JAR Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: java-release-artefact
+          name: java-release-artifact
           path: IdeaProjects/Project/target/*.jar
