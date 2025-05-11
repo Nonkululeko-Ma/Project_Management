@@ -20,11 +20,11 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: 🛠️ Compile Java Files in IdeaProjects/Project/src/ProjectManagement
+      - name: 🛠️ Compile Java Files in src/ProjectManagement
         run: |
-          mkdir -p out
-          find IdeaProjects/Project/src/ProjectManagement -name "*.java" > sources.txt
-          javac @sources.txt -d out
+         mkdir -p out
+         find IdeaProjects/Project/src/ProjectManagement -name "*.java" > sources.txt
+         javac @sources.txt -d out
 
       - name: ✅ Run Main Class
         run: java -cp out ProjectManagement.Main
