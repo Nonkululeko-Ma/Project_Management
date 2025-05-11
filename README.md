@@ -152,4 +152,29 @@ Link for diagram
 ## Deliverable 2 ##
 ci.yml screenshot
 ![Screenshot (354)](https://github.com/user-attachments/assets/4cf9a388-347c-40fe-b8b7-09b33b4cd050)
+![Screenshot (355)](https://github.com/user-attachments/assets/0cf1316d-2c56-441f-8add-abeaf587269a)
+
+##  How to Run Tests Locally
+
+To run all tests locally using Maven:
+
+```bash
+mvn clean test
+
+---
+
+###  2. Create a PR & Screenshot
+
+Next steps:
+
+1. **Push a failing test** on a new branch (e.g., `feature/test-break`).
+2. Open a **Pull Request** to merge into `main`.
+3. Let the workflow fail.
+4. Take a **screenshot** showing:
+   -  "Tests failed"
+   -  “Merging is blocked”
+   - Message: "At least 1 required check failed"
+
+
+
 
