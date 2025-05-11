@@ -158,24 +158,25 @@ ci.yml screenshot
 ##  How to Run Tests Locally
 
 To run all tests locally using Maven:
+ Make sure you have Java and Maven installed
+And then cd IdeaProjects/Project since my src is inside the ideaproject, you have to cd it in order to read it.
 
-```bash
-mvn clean test
+# Run all the tests
+mvn test
 
----
 
-###  2. Create a PR & Screenshot
+# How the CI/CD Pipeline Works #
 
-Next steps:
+Every time you push code or open a pull request (PR) to the main branch, GitHub Actions automatically runs.
+It grabs your code, sets up Java, and runs all the tests for you.
+If any tests fail, the PR can’t be merged, so no broken code sneaks into main.
+Once your PR passes all tests and gets merged into main, the pipeline builds a release artifact (a JAR file).
+You can download this artifact from the GitHub Actions page under the Artifacts section - super useful for deploying or sharing your build.
 
-1. **Push a failing test** on a new branch (e.g., `feature/test-break`).
-2. Open a **Pull Request** to merge into `main`.
-3. Let the workflow fail.
-4. Take a **screenshot** showing:
-   -  "Tests failed"
-   -  “Merging is blocked”
-   - Message: "At least 1 required check failed"
-
+## How to Show the PR Workflow in Action ##
+Create a PR targeting the main branch.
+If your code has failing tests, GitHub will block the merge and show the failing checks right on the PR page. This makes sure everyone’s code is solid before it gets merged.
+When your PR passes all tests and gets merged, the pipeline builds and uploads the release artifact. You can find it in the GitHub Actions run under Artifacts - just grab a screenshot to prove it!
 
 
 
