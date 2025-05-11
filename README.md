@@ -147,3 +147,8 @@ Link for diagram
 
 ## ASSIGNMENT 13 ## 
 ![Screenshot (345)](https://github.com/user-attachments/assets/c5872547-ef60-4a0a-8301-2d02aad81538)
+
+## Deliverable 2 ##
+ci. ymx screenshot
+![image](https://github.com/user-attachments/assets/46c48277-79e7-4bbe-8608-c9395c945ce1)
+
