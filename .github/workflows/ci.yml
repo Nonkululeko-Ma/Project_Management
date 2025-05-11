@@ -1,0 +1,30 @@
+name: Java CI (Plain Java)
+
+on:
+  push:
+    branches: [ "**" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: ☕ Set up Java
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: 🛠️ Compile Java Files
+        run: |
+          mkdir out
+          find src -name "*.java" > sources.txt
+          javac @sources.txt -d out
+
+      - name: ✅ Run Tests (if any)
+        run: echo "✔️ Compilation succeeded — Add test runner if available."
