@@ -1,4 +1,4 @@
-name: Java CI (Plain Java)
+name: Java CI
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout Repository
+      - name: 📥 Checkout Code
         uses: actions/checkout@v3
 
       - name: ☕ Set up Java
@@ -20,11 +20,11 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
-      - name: 🛠️ Compile Java Files
+      - name: 🛠️ Compile Java Files in src/ProjectManagement
         run: |
-          mkdir out
-          find src -name "*.java" > sources.txt
+          mkdir -p out
+          find src/ProjectManagement -name "*.java" > sources.txt
           javac @sources.txt -d out
 
-      - name: ✅ Run Tests (if any)
-        run: echo "✔️ Compilation succeeded — Add test runner if available."
+      - name: ✅ Run Main Class
+        run: java -cp out ProjectManagement.Main
