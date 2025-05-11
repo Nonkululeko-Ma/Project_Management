@@ -20,18 +20,5 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Maven
+        working-directory: IdeaProjects/Project  # Critical fix
         run: mvn clean install
-
-     
-      - name: 🛠️ Compile Java Files in src/ProjectManagement
-        run: |
-         cd IdeaProjects/Project/src
-         mkdir -p out
-         find ProjectManagement -name "*.java" > sources.txt
-         javac @sources.txt -d out
-
-         - name: ✅ Run Main Class
-          run: |
-          cd IdeaProjects/Project/src
-          java -cp out ProjectManagement.Main
-
