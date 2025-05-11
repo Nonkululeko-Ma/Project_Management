@@ -147,8 +147,9 @@ Link for diagram
 
 ## ASSIGNMENT 13 ## 
 
+![Screenshot (345)](https://github.com/user-attachments/assets/483204ce-ed58-48e6-b35c-19b68e2e6237)
 
 ## Deliverable 2 ##
 ci.yml screenshot
-
+![Screenshot (354)](https://github.com/user-attachments/assets/4cf9a388-347c-40fe-b8b7-09b33b4cd050)
 
