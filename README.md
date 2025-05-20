@@ -181,5 +181,22 @@ Create a PR targeting the main branch.
 If your code has failing tests, GitHub will block the merge and show the failing checks right on the PR page. This makes sure everyone’s code is solid before it gets merged.
 When your PR passes all tests and gets merged, the pipeline builds and uploads the release artifact. You can find it in the GitHub Actions run under Artifacts - just grab a screenshot to prove it!
 
+## assignment 14 ## 
 
+A Java-based Project Management application built using design patterns like Factory, Singleton, Prototype, and Abstract Factory. The app helps teams manage tasks, roles, and workflows efficiently.
+mvn spring-boot:run
+
+
+###  Prerequisites
+- Java 17+
+- Maven 3.9+
+- IntelliJ IDEA or any Java IDE
+
+
+# Technologies Used #
+Java 17
+Spring Boot
+Maven
+GitHub Actions
+JUnit
 
