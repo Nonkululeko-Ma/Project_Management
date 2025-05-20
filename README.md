@@ -146,4 +146,81 @@ Link for diagram
 
 
 ## ASSIGNMENT 13 ## 
+ Nonkululeko-Ma-patch-2
 ![image](https://github.com/user-attachments/assets/2832ac08-766f-4e3e-a47d-57eea1fefdb6)
+
+
+![Screenshot (345)](https://github.com/user-attachments/assets/483204ce-ed58-48e6-b35c-19b68e2e6237)
+![Screenshot (346)](https://github.com/user-attachments/assets/f839ed37-b017-476f-8b4a-29441d47c71e)
+![Screenshot (356)](https://github.com/user-attachments/assets/8ba5d3d0-e22e-4158-8d12-d9e4ab60a5aa)
+
+## Deliverable 2 ##
+ci.yml screenshot
+![Uploading image.png…]()
+
+![Screenshot (354)](https://github.com/user-attachments/assets/4cf9a388-347c-40fe-b8b7-09b33b4cd050)
+![Screenshot (355)](https://github.com/user-attachments/assets/0cf1316d-2c56-441f-8add-abeaf587269a)
+
+##  How to Run Tests Locally
+
+To run all tests locally using Maven:
+ Make sure you have Java and Maven installed
+And then cd IdeaProjects/Project since my src is inside the ideaproject, you have to cd it in order to read it.
+
+# Run all the tests
+mvn test
+
+
+# How the CI/CD Pipeline Works #
+
+Every time you push code or open a pull request (PR) to the main branch, GitHub Actions automatically runs.
+It grabs your code, sets up Java, and runs all the tests for you.
+If any tests fail, the PR can’t be merged, so no broken code sneaks into main.
+Once your PR passes all tests and gets merged into main, the pipeline builds a release artifact (a JAR file).
+You can download this artifact from the GitHub Actions page under the Artifacts section - super useful for deploying or sharing your build.
+
+## How to Show the PR Workflow in Action ##
+Create a PR targeting the main branch.
+If your code has failing tests, GitHub will block the merge and show the failing checks right on the PR page. This makes sure everyone’s code is solid before it gets merged.
+When your PR passes all tests and gets merged, the pipeline builds and uploads the release artifact. You can find it in the GitHub Actions run under Artifacts - just grab a screenshot to prove it!
+
+## assignment 14 ## 
+
+A Java-based Project Management application built using design patterns like Factory, Singleton, Prototype, and Abstract Factory. The app helps teams manage tasks, roles, and workflows efficiently.
+mvn spring-boot:run
+
+
+###  Prerequisites
+- Java 17+
+- Maven 3.9+
+- IntelliJ IDEA or any Java IDE
+
+
+# Technologies Used #
+Java 17
+Spring Boot
+Maven
+GitHub Actions
+JUnit
+
+## linkes for 
+
+
+👉 link for ROADMAP.MD
+
+Project_Management/ROADMAP.md at main · Nonkululeko-Ma/Project_Management
+
+👉 CONTRIBUTING.MD
+
+Project_Management/CONTRIBUTING.md at main · Nonkululeko-Ma/Project_Management
+
+
+👉 LICENSE.MD
+
+Project_Management/LICENSE.md at main · Nonkululeko-Ma/Project_Management
+
+
+👉 REFLECTION.MD 
+
+Project_Management/REFLECTION.md at main · Nonkululeko-Ma/Project_Management
+
