@@ -79,3 +79,19 @@ Lessons Learned
 
 One of the trade-offs I made was avoiding inheritance because my system didn’t really have objects that needed it. Instead, I used simple relationships like association and composition to keep the diagram clear and easy to understand. I also avoided adding extra technical details to keep the class diagram focused on the business logic of the project.
 From this assignment, I learned a lot about object-oriented design. I now understand that a class diagram is not just about drawing boxes but about carefully showing how the system works in real life. I learned how important it is to balance between keeping the diagram simple but still detailed enough to explain the system properly. I also learned that working with diagrams helps to think deeply about the system before writing any code. Overall, this task really helped me improve my planning and system design skills. It showed me the importance of organising data, defining clear relationships, and thinking about future system development.
+
+
+
+## ASSIGNMENT 14 ## 
+
+# ✍️ Reflection: Open-Source Collaboration Journey
+Throughout Assignment 14, I learned what it means to make a repository ready for collaboration. My peers contributed to this journey by starring and forking my repo and receiving 40 forks and 39 stars was both exciting and humbling.
+
+## 📈 Improvements from Feedback
+For Peer reviews i tagged good-first-issue labels on simple issues to welcome new contributors.
+
+## 🧗 Challenges Faced
+One challenge was ensuring the CI pipeline worked with every push. Initially, my GitHub Actions failed due to missing Spring dependencies. I resolved this by configuring the Maven workflow properly and using the correct directory structure (`src/main/java` and `pom.xml`). Another difficulty was merging branches. I had to learn how to resolve merge conflicts on Git and not panic when something broke.
+
+## 🧠 Lessons Learned
+This task made me realize that code alone doesn’t make a project valuable good documentation, clear contribution steps, and an active community are essential. CI/CD automation also ensures confidence in code quality. Now I feel more confident in working on collaborative, open-source Java projects  and I’m grateful for what I’ve learned.
